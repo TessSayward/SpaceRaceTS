@@ -18,8 +18,7 @@ h1, h2, h3 {
   font-family: 'Pathway Gothic One', sans-serif; }
 
 .panel {
-  padding-bottom: 2rem;
-  padding: 1rem; }
+  padding-bottom: 2rem; }
 
 h3 {
   text-align: center;
@@ -29,21 +28,95 @@ p {
   font-size: 1rem;
   text-align: center; }
 
-.dots {
-  padding-bottom: 10rem; }
+/*.dots{
+	padding-bottom: 10rem;
+}*/
+.usa {
+  margin-top: -10rem; }
+
+.introp {
+  margin: auto;
+  text-align: justify;
+  font-size: .8rem;
+  max-width: 47%;
+  padding: 2rem;
+  color: #DADADA; }
+
+@media screen and (max-width: 39.9375em) {
+  .introp {
+    max-width: 100%; } }
+footer {
+  background-color: #1d0e28;
+  font-family: 'Pathway Gothic One', sans-serif;
+  padding: 20px 0px 5px 5px; }
+
+footer a {
+  color: white; }
+
+.win {
+  margin-top: -5rem; }
 
 .button {
   border-radius: 1.5rem;
-  font-family: 'Roboto', sans-serif; }
+  background-color: #2b326d;
+  font-family: 'Pathway Gothic One', sans-serif;
+  font-size: 1.3rem;
+  align-content: center; }
 
 /*.tothetop{
 	width: 4%;
 }*/
 body {
   background-image: url("../img/stars.png");
-  background-size: 100%; }
+  /*background-repeat: no-repeat, repeat;
+  background-position: 0 100px, 0 0;
+  background-size: 100%;*/ }
 
+/*@media screen and (min-width: 40em){
+	body {
+		background-position: 0 700px, 0 0;
+	}
+}
+@media screen and (min-width: 64em){
+	body {
+		background-position: 0 400px, 0 0;
+	}
+}*/
 .earth {
-  align-content: center; }
+  align-content: center;
+  margin-top: -10rem; }
+
+.sputnik {
+  width: 60%;
+  padding-left: 4rem; }
+
+@media screen and (max-width: 39.9375em) {
+  .earth {
+    margin-top: -3rem; }
+
+  .sputnik {
+    width: 100%;
+    padding-bottom: 6rem; }
+
+  .cosmonaut {
+    align-content: center;
+    width: 100%; }
+
+  .dog {
+    width: 100%;
+    align-content: center; } }
+@media screen and (max-width: 60em) {
+  /*.earth{
+  	padding: 2rem;
+  }*/
+  .introp {
+    max-width: 100%; } }
+.cosmonaut {
+  width: 20%;
+  align-content: right; }
+
+.dog {
+  width: 35%;
+  padding-left: 2rem; }
 
 /*# sourceMappingURL=app.css.map */

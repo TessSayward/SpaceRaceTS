@@ -8,7 +8,7 @@ h1, h2, h3{
 
 .panel{
 	padding-bottom: 2rem;
-	padding: 1rem;
+	
 }
 
 h3{
@@ -20,6 +20,37 @@ p{
 	font-size: 1rem;
 	text-align: center;
 }
-.dots{
+/*.dots{
 	padding-bottom: 10rem;
+}*/
+
+.usa{
+	margin-top: -10rem;
 }
+.introp{
+	margin: auto;
+	text-align: justify;
+	font-size: .8rem;
+	max-width: 47%;
+	padding: 2rem;
+	color: #DADADA;
+}
+@media screen and (max-width: 39.9375em){
+	.introp{
+		max-width: 100%
+	}
+
+  }
+
+  footer{
+  	background-color: #1d0e28;
+  	font-family: 'Pathway Gothic One', sans-serif;
+  	padding: 20px 0px 5px 5px;
+  }
+  footer a{
+  	color: white;
+  }
+
+  .win{
+  	margin-top: -5rem;
+  }
